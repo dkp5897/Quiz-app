@@ -6,7 +6,7 @@ const questionList = Questions;
 
 function App() {
   const [currentQus, setCurrentQus] = useState(0);
-  const [showScore, setShowSfcore] = useState(false);
+  const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
 
 
