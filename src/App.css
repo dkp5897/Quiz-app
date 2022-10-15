@@ -60,3 +60,17 @@ button:hover{
   background-color: antiquewhite;
   color: black;
 }
+
+@media only screen and (max-width: 1050px){
+  .App{
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 750px){
+  .App{
+    width: 270px;
+  }
+  button{
+    height: 50px;
+  }
+}
